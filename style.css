@@ -76,9 +76,13 @@ body {
 .footer {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    padding: 10px;
-    margin-top: 50px;
+    text-align: left;
+    margin-left: -100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+
+
 }
 
 .footer a {
@@ -101,6 +105,7 @@ body {
 
     .footer {
         padding: 10px 0;
+        margin-left: 0px;
         /* Reduce padding on smaller screens */
     }
 
@@ -121,6 +126,7 @@ body {
 
     .footer {
         padding: 10px 0;
+        margin-left: 0px;
         /* Reduce padding on smaller screens */
     }
 }
