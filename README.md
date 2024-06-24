@@ -33,3 +33,8 @@ A simple web application to generate strong and secure passwords based on user p
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
+## Contact
+- Email: jahedahmed3170@gmail.com
+- Protfolio: [Protfolio](https://jahedahmed-portfolio.netlify.app/)
+- GitHub: [GitHub](https://github.com/jahedripon9)
+
