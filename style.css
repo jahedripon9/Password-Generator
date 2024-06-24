@@ -9,28 +9,23 @@
 body {
     background: #002339;
     color: #fff;
-    font-size: 16px;
-    /* Base font size for better readability */
-    line-height: 1.6;
-    /* Improved line height for readability */
+    font-size: 16px; /* Base font size for better readability */
+    line-height: 1.6; /* Improved line height for readability */
 }
 
 /* Container styles */
 .container {
-    margin: 12% auto;
-    /* Center container and adjust margin */
+    margin: 12% auto; /* Center container and adjust margin */
     width: 90%;
     max-width: 700px;
-    padding: 20px;
-    /* Add padding for better spacing */
+    padding: 20px; /* Add padding for better spacing */
 }
 
 /* Heading styles */
 .container h1 {
     font-weight: 500;
     font-size: 45px;
-    text-align: center;
-    /* Center align heading */
+    text-align: center; /* Center align heading */
     margin-bottom: 20px;
 }
 
@@ -58,15 +53,14 @@ body {
 .display img {
     width: 30px;
     cursor: pointer;
+    margin-left: -20px;
 }
 
 .display input {
-    flex: 1;
-    /* Allow input to grow within flex container */
+    flex: 1; /* Allow input to grow within flex container */
     border: 0;
     outline: 0;
-    font-size: 20px;
-    /* Adjust font size for better readability */
+    font-size: 20px; /* Adjust font size for better readability */
     padding: 10px;
 }
 
@@ -74,15 +68,12 @@ body {
 .container button {
     background: #019f55;
     color: #fff;
-    font-size: 18px;
-    /* Adjust font size */
-    font-weight: 400;
-    /* Adjust font weight */
+    font-size: 18px; /* Adjust font size */
+    font-weight: 400; /* Adjust font weight */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 20px;
-    /* Adjust padding */
+    padding: 12px 20px; /* Adjust padding */
     border: 0;
     border-radius: 5px;
     outline: 0;
@@ -90,25 +81,20 @@ body {
 }
 
 .container button img {
-    width: 24px;
-    /* Adjust image size */
-    margin-right: 8px;
-    /* Adjust margin */
+    width: 24px; /* Adjust image size */
+    margin-right: 8px; /* Adjust margin */
 }
 
 .container button:hover {
-    background-color: #017944;
-    /* Darker color on hover */
+    background-color: #017944; /* Darker color on hover */
 }
 
 /* Footer styles */
 .footer {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    /* Center align text */
-    margin-top: 40px;
-    /* Adjust margin */
+    text-align: center; /* Center align text */
+    margin-top: 40px; /* Adjust margin */
 }
 
 .footer a {
@@ -125,101 +111,80 @@ body {
 /* Small devices (phones, 576px and below) */
 @media (max-width: 576px) {
     .container {
-        margin: 10% auto;
-        /* Adjust margin */
-        padding: 15px;
-        /* Adjust padding */
+        margin: 10% auto; /* Adjust margin */
+        padding: 15px; /* Adjust padding */
     }
 
     .container h1 {
-        font-size: 32px;
-        /* Adjust font size */
+        font-size: 32px; /* Adjust font size */
     }
 
     .display {
-        padding: 14px;
-        /* Adjust padding */
+        padding: 16px; /* Adjust padding */
     }
 
     .container button {
-        font-size: 16px;
-        /* Adjust font size */
-        padding: 10px 16px;
-        /* Adjust padding */
+        font-size: 16px; /* Adjust font size */
+        padding: 10px 16px; /* Adjust padding */
     }
 }
 
 /* Medium devices (tablets, 768px and below) */
 @media (max-width: 768px) {
     .container {
-        margin: 8% auto;
-        /* Adjust margin */
+        margin: 8% auto; /* Adjust margin */
     }
 
     .container h1 {
-        font-size: 40px;
-        /* Adjust font size */
+        font-size: 40px; /* Adjust font size */
     }
 
     .display {
-        padding: 16px;
-        /* Adjust padding */
+        padding: 18px; /* Adjust padding */
     }
 
     .container button {
-        font-size: 18px;
-        /* Adjust font size */
-        padding: 12px 20px;
-        /* Adjust padding */
+        font-size: 18px; /* Adjust font size */
+        padding: 12px 20px; /* Adjust padding */
     }
 }
 
 /* Large devices (desktops, 992px and below) */
 @media (max-width: 992px) {
     .container {
-        margin: 6% auto;
-        /* Adjust margin */
+        margin: 6% auto; /* Adjust margin */
     }
 
     .container h1 {
-        font-size: 45px;
-        /* Adjust font size */
+        font-size: 45px; /* Adjust font size */
     }
 
     .display {
-        padding: 18px;
-        /* Adjust padding */
+        padding: 20px; /* Adjust padding */
     }
 
     .container button {
-        font-size: 20px;
-        /* Adjust font size */
-        padding: 14px 24px;
-        /* Adjust padding */
+        font-size: 20px; /* Adjust font size */
+        padding: 14px 24px; /* Adjust padding */
     }
 }
 
 /* Extra large devices (large desktops, 1200px and above) */
 @media (min-width: 1200px) {
     .container {
-        margin: 5% auto;
-        /* Adjust margin */
+        margin: 5% auto; /* Adjust margin */
     }
 
     .container h1 {
-        font-size: 50px;
-        /* Adjust font size */
+        font-size: 50px; /* Adjust font size */
     }
 
     .display {
-        padding: 18px;
-        /* Adjust padding */
+        padding: 22px; /* Adjust padding */
     }
 
     .container button {
-        font-size: 22px;
-        /* Adjust font size */
-        padding: 16px 28px;
-        /* Adjust padding */
+        font-size: 22px; /* Adjust font size */
+        padding: 16px 28px; /* Adjust padding */
     }
 }
