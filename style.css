@@ -1,3 +1,4 @@
+/* Reset and global styles */
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +11,27 @@ body {
     color: #fff;
 }
 
+/* Container styles */
 .container {
     margin: 12%;
     width: 90%;
     max-width: 700px;
 }
 
+/* Heading styles */
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 2px;
+    border-radius: 20px;
+}
+
+/* Display section styles */
 .display {
     width: 100%;
     margin-top: 50px;
@@ -29,19 +45,6 @@ body {
     border-radius: 5px;
 }
 
-.container h1 {
-    font-weight: 500;
-    font-size: 45px;
-
-}
-
-.container h1 span {
-    color: #019f55;
-    border-bottom: 4px solid #019f55;
-    padding-bottom: 2px;
-    border-radius: 20px;
-}
-
 .display img {
     width: 30px;
     cursor: pointer;
@@ -53,14 +56,8 @@ body {
     font-size: 24px;
 }
 
-.container button img {
-    width: 28px;
-    margin-right: 10px;
-}
-
+/* Button styles */
 .container button {
-    border: 0;
-    outline: 0;
     background: #019f55;
     color: #fff;
     font-size: 22px;
@@ -69,20 +66,27 @@ body {
     align-items: center;
     justify-content: center;
     padding: 16px 26px;
+    border: 0;
     border-radius: 5px;
+    outline: 0;
     cursor: pointer;
 }
 
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+/* Footer styles */
 .footer {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
     margin-left: -100px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 0px;
-
-
+    /* This seems unnecessary, consider removing */
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .footer a {
@@ -94,14 +98,13 @@ body {
     text-decoration: underline;
 }
 
-/* For tablets and smaller desktop screens */
+/* Media queries for responsive design */
 @media (max-width: 992px) {
     .container {
         margin: 10%;
     }
 }
 
-/* For smaller mobile screens */
 @media (max-width: 768px) {
     .container {
         margin: 8%;
@@ -109,7 +112,6 @@ body {
 
     .container h1 {
         font-size: 32px;
-        /* Adjust font size for better readability on smaller screens */
     }
 
     .display {
@@ -118,11 +120,9 @@ body {
 
     .footer {
         margin-left: 0;
-        /* Adjust margin for better alignment on smaller screens */
     }
 }
 
-/* For very small mobile screens */
 @media (max-width: 576px) {
     .container {
         margin: 5%;
@@ -130,13 +130,11 @@ body {
 
     .container h1 {
         font-size: 24px;
-        /* Further reduce font size for very small screens */
     }
 }
-/* Specific styles for problematic devices */
-@media (max-width: 400px) and (max-height: 800px) {
 
-    /* Adjustments for a specific device */
+/* Specific styles for a problematic device */
+@media (max-width: 400px) and (max-height: 800px) {
     .container {
         margin: 3%;
     }
