@@ -58,6 +58,7 @@ body {
 .display img {
     width: 20px;
     cursor: pointer;
+    padding: auto;
 }
 
 .display input {
