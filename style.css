@@ -72,6 +72,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .footer {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -97,10 +98,12 @@ body {
     .container h1 {
         font-size: 1.8rem;
     }
-          .footer {
-              padding: 10px 0;
-              /* Reduce padding on smaller screens */
-          }
+
+    .footer {
+        padding: 10px 0;
+        /* Reduce padding on smaller screens */
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -115,8 +118,9 @@ body {
     .display {
         margin-top: 20px;
     }
-          .footer {
-              padding: 10px 0;
-              /* Reduce padding on smaller screens */
-          }
+
+    .footer {
+        padding: 10px 0;
+        /* Reduce padding on smaller screens */
+    }
 }
