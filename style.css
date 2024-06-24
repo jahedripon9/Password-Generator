@@ -94,30 +94,22 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+/* For tablets and smaller desktop screens */
+@media (max-width: 992px) {
     .container {
         margin: 10%;
     }
-
-    .container h1 {
-        font-size: 1.8rem;
-    }
-
-    .footer {
-        padding: 10px 0;
-        margin-left: 0px;
-        /* Reduce padding on smaller screens */
-    }
-
 }
 
-@media (max-width: 576px) {
+/* For smaller mobile screens */
+@media (max-width: 768px) {
     .container {
-        margin: 5%;
+        margin: 8%;
     }
 
     .container h1 {
-        font-size: 1.5rem;
+        font-size: 32px;
+        /* Adjust font size for better readability on smaller screens */
     }
 
     .display {
@@ -125,8 +117,19 @@ body {
     }
 
     .footer {
-        padding: 10px 0;
-        margin-left: 0px;
-        /* Reduce padding on smaller screens */
+        margin-left: 0;
+        /* Adjust margin for better alignment on smaller screens */
+    }
+}
+
+/* For very small mobile screens */
+@media (max-width: 576px) {
+    .container {
+        margin: 5%;
+    }
+
+    .container h1 {
+        font-size: 24px;
+        /* Further reduce font size for very small screens */
     }
 }
