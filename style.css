@@ -53,7 +53,7 @@ body {
 .display img {
     width: 30px;
     cursor: pointer;
-    margin-left: -25px;
+    margin-left: -35px;
 }
 
 .display input {
@@ -93,8 +93,24 @@ body {
 .footer {
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center; /* Center align text */
-    margin-top: 40px; /* Adjust margin */
+    text-align: center;
+    /* Center align text */
+    margin-top: 20px;
+    /* Adjust margin */
+    white-space: nowrap;
+    /* Prevent line break */
+    overflow: hidden;
+    /* Hide overflowing content */
+    text-overflow: ellipsis;
+    /* Display ellipsis for overflow */
+    font-size: 14px;
+    /* Adjust font size */
+    display: flex;
+    /* Use flexbox for centering items */
+    align-items: center;
+    /* Center align items vertically */
+    justify-content: center;
+    /* Center align items horizontally */
 }
 
 .footer a {
